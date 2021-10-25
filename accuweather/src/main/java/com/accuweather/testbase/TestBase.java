@@ -43,6 +43,9 @@ public class TestBase {
 						"C:\\Users\\malli\\workspace\\accuweather\\drivers\\chromedriver.exe");
 				driver = new ChromeDriver();
 			} else if (browser.equals("firefox")) {
+				System.setProperty(ChromeDriverService.CHROME_DRIVER_SILENT_OUTPUT_PROPERTY, "true");
+				System.setProperty("webdriver.gecko.driver",
+						"C:\\Users\\malli\\workspace\\accuweather\\drivers\\geckodriver.exe");
 				driver = new FirefoxDriver();
 			}
 
