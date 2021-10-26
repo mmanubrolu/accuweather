@@ -5,8 +5,8 @@
     <classes>
       <class name="com.accuweather.test.HomePageTest">
         <methods>
-          <include name="getTemperatureTest"/>
           <include name="tearDown"/>
+          <include name="validateLowestTemperatureTest"/>
           <include name="setUp"/>
         </methods>
       </class> <!-- com.accuweather.test.HomePageTest -->
